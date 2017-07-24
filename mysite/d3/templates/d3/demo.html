@@ -1,0 +1,23 @@
+{% extends "d3/header.html" %}
+
+{% block content %}
+ 
+{% include "d3/includes/graph.html" %}
+
+<p>This is the code:</p>
+<pre><code>
+var data = [30, 86, 168, 281, 303, 565];
+
+$(document).ready(function() {
+    d3.select(".chart")
+      .selectAll("div")
+      .data(data)
+        .enter()
+        .append("div")
+        .style("width", function(d) { return d + "px"; })
+        .text(function(d) { return d; });
+});
+</code></pre>
+
+
+{% endblock %}

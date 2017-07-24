@@ -1,0 +1,77 @@
+body {
+  padding: 0%;
+  padding-top: 4%;
+  margin-bottom: 50px;
+  text-align: center;
+  background-color: #f6f6f6;
+}
+
+.chart div {
+  font: 10px sans-serif;
+  background-color: steelblue;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  color: white;
+}
+
+.chart-container {
+  background-color: lightgray;
+  max-width: 60%;
+  text-align: center;
+  padding: 2%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+circle.active {
+  stroke: cyan;
+  stroke-width: 2px;
+}
+
+pre {
+  padding: 0% 3%;
+  color: white;
+  max-width: 60%;
+  background-color: #465c69;
+  text-align: left;
+  margin: 0% auto;
+}
+
+ol.end-links {
+  text-align: left;
+  width: 250px;
+  margin: auto;
+  font-size: 1.5em;
+}
+
+.centered {
+  margin: auto;
+}
+
+div.tooltip { 
+    position: absolute;     
+    text-align: center;     
+    width: 50px;          
+    height: 25px;         
+    padding: 5px;       
+    font: 8px sans-serif;    
+    background: lightsteelblue; 
+    border: 0px;    
+    border-radius: 8px;     
+    pointer-events: none;     
+}
+
+img {
+  max-width: 100%;
+}
+
+.paragraph {
+  max-width: 50%;
+  margin: auto;
+  text-align: left;
+}
+
+p {
+  font-size: 1.5em;
+}
